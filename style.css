@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bitter', serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+nav{
+    background-color: #429bae;
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+}
+.link-container{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin-left: 10%;
+}
+.hero-container{
+    text-align: center; 
+    padding-top: 70px;
+    padding-bottom:60px;
+    background-color: #296684; 
+}
+.brand-name{
+    color: #85e4f9;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.brand-subtitle{
+    color: white;
+    font-size: 15px;
+    font-family:'Tajawal', sans-serif;
+    font-weight: bold;
+}
+
+.info-container{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom:55px;
+    background-color: #cbeeeb51;
+}
+
+.card-container{
+    text-align: left;
+    background-color: #8ed3cc51;
+    padding-top: 15px;
+    padding-bottom: 8%;
+    font-size: 13px;
+}
+.pic{
+    float:left;
+    width:360px;
+    height:290px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 2%;
+   
+}
+.card-name{
+    font-size: 30px;
+    padding-bottom:15px;
+    padding-top:5%;
+}
+.card-text{
+    
+    padding-bottom: 15px;
+}
+.funding-container{
+    text-align: left;
+    background-color: #cbeeeb51;
+    padding-top: 15px;
+    padding-bottom: 8%;
+    font-size: 13px;
+    padding-left: 8%;
+}
+.pic-2{
+    float:right;
+    width:360px;
+    height:290px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%
+    
+}
+.funding-name{
+    font-size: 30px;
+    padding-bottom:15px;
+    padding-top:5%;
+}
+.funding-text{
+    padding-bottom: 15px;
+}
